@@ -46,17 +46,19 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 ### Installation via Pip
 
-1. Ensure your environment meets the following requirements:
-    - Python == 3.9
-    - Pytorch == 1.13.0
-    - CUDA Version == 11.6
+1. **Environment Setup**  
+   Make sure your system meets the following requirements:
+   - Python == 3.9  
+   - PyTorch == 1.13.0  
+   - CUDA Version == 11.6
 
-2. Clone the repository:
-    ```bash
-    git clone https://github.com/YuyangChen-622/Capstone5703-Group56-1
-    cd FakeShield
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/YuyangChen-622/Capstone5703-Group56-1
+   cd FakeShield
     ```
-3. Install dependencies:
+   
+3. **Install dependencies**
     ```bash
     apt update && apt install git
     pip install -r requirements.txt
@@ -67,14 +69,13 @@ The system integrates multiple components for **forgery detection, multimodal re
     git checkout v1.4.7
     MMCV_WITH_OPS=1 pip install -e .
     ```
-4. Install DTE-FDM:
+4. **Install DTE-FDM Module**
     ```bash
     cd ../DTE-FDM
     pip install -e .
     pip install -e ".[train]"
     pip install flash-attn --no-build-isolation
     ```
-
 
 ## 🤖 Prepare Model
 
