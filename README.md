@@ -131,8 +131,7 @@ Modify these variables to suit different use cases.
 ### Data Preparation
 
 All datasets and JSON annotation files used for training, validation, and testing are stored in Google Drive.
-
-**Dataset Google Drive Link:**  
+  
 [👉 Access the dataset and JSON files](https://drive.google.com/drive/folders/your-dataset-folder-id)
 
 Download them from the above links and organize them as follows:
