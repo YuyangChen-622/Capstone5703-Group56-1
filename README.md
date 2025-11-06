@@ -126,9 +126,9 @@ The `cli_demo.sh` script allows customization through the following environment 
 
 Modify these variables to suit different use cases.
 
-## 🏋️‍♂️ Train
+## 🏋️‍♂️ Training, Fine-tuning, and Testing
 
-### Data Preparation
+### Dataset Organization
 
 All datasets and JSON annotation files used for training, validation, and testing are stored in Google Drive.
   
@@ -202,24 +202,27 @@ dataset/
 └── MMTD_Set/                 # Multi-Modal Tamper Description Dataset
     └── MMTD-Set-34k.json     # JSON Training File
 ```
+### LoRA Fine-tuning Overview
+
+Both the **DTE-FDM** (Detection) and **MFLM** (Localization) modules can be fine-tuned using **LoRA (Low-Rank Adaptation)** to efficiently adapt pre-trained models to new datasets or specific domains.  
+LoRA fine-tuning updates only a small number of parameters, significantly reducing GPU memory usage while maintaining high performance.
 
 
-### LoRA Finetune DTE-FDM
+### 🔹 Fine-tuning DTE-FDM
 
-You can fine-tune DTE-FDM using LoRA with the following script:
-
+To fine-tune the **Domain Tag-guided Explainable Forgery Detection Module (DTE-FDM)** using LoRA, run:
 ```bash
 bash ./scripts/DTE-FDM/finetune_lora.sh
-```
 
-The script allows customization through the following environment variables:
-- `OUTPUT_DIR`: Directory for saving training output
-- `DATA_PATH`: Path to the training dataset (JSON format)
-- `WEIGHT_PATH`: Path to the pre-trained weights
+**Key Environment Variables**
+- `OUTPUT_DIR` — Directory to save checkpoints and training logs  
+- `DATA_PATH` — Path to the training JSON file
+- `WEIGHT_PATH` — Path to the pre-trained weights 
 
 Modify these variables as needed to adapt the training process to different datasets and setups.
 
-### LoRA Finetune MFLM
+
+### 🔹 Fine-tuning MFLM
 
 You can fine-tune MFLM using LoRA with the following script:
 
