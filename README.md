@@ -1,19 +1,16 @@
 <div align="center">
 <h1> Explainable Fake Image Detection Using Large Multimodal Models </h1>
 <h1> Capstone Project | Group CS56-1 </h1>
+<p>
+Yuyang Chen,&nbsp;
+Harry Cao,&nbsp;
+Jiaze Li,&nbsp;
+Yuxuan Ke,&nbsp;
+Zhicheng Gao,&nbsp;
+Haodi Qi
+</p>
 </div>
 
----
-
-## 👥 Team Members
-Yuyang Chen  
-Harry Cao  
-Jiaze Li  
-Yuxuan Ke  
-Zhihcheng Gao  
-Haodi Qi  
-
----
 
 ## 🧭 Project Overview
 
