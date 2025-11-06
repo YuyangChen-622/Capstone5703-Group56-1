@@ -1,6 +1,6 @@
 <div align="center">
-<h1> Explainable Fake Image Detection Using Large Multimodal Models </h3>
-<h2> Capstone Project — CS56-1 | The University of Sydney, Semester 2, 2025 </h4>
+<h1> Explainable Fake Image Detection Using Large Multimodal Models </h1>
+<h2> Capstone Project — CS56-1 | The University of Sydney, Semester 2, 2025 </h2>
 </div>
 
 ---
