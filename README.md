@@ -213,13 +213,12 @@ LoRA fine-tuning updates only a small number of parameters, significantly reduci
 To fine-tune the **Domain Tag-guided Explainable Forgery Detection Module (DTE-FDM)** using LoRA, run:
 ```bash
 bash ./scripts/DTE-FDM/finetune_lora.sh
+```
 
 **Key Environment Variables**
 - `OUTPUT_DIR` — Directory to save checkpoints and training logs  
 - `DATA_PATH` — Path to the training JSON file
 - `WEIGHT_PATH` — Path to the pre-trained weights 
-
-Modify these variables as needed to adapt the training process to different datasets and setups.
 
 
 ### 🔹 Fine-tuning MFLM
@@ -230,33 +229,36 @@ You can fine-tune MFLM using LoRA with the following script:
 bash ./scripts/MFLM/finetune_lora.sh
 ```
 
-The script allows customization through the following environment variables:
-- `OUTPUT_DIR`: Directory for saving training output
-- `DATA_PATH`: Path to the training dataset
-- `WEIGHT_PATH`: Path to the pre-trained weights
-- `TRAIN_DATA_CHOICE`: Selecting the training dataset
-- `VAL_DATA_CHOICE`: Selecting the validation dataset
+**Key Environment Variables**
+- `OUTPUT_DIR` — Directory to save checkpoints and training logs  
+- `DATA_PATH` — Path to the training JSON file
+- `WEIGHT_PATH` — Path to the pre-trained weights
+- `TRAIN_DATA_CHOICE / VAL_DATA_CHOICE` — Identifiers for selecting training and validation datasets
 
-Modify these variables as needed to adapt the training process to different datasets and setups.
+### 🧪 Test
 
-
-## 🎯 Test
-
-You can test FakeShield using the following script:
+After completing training or fine-tuning, you can evaluate the model using the testing script:
 
 ```bash
 bash ./scripts/test.sh
 ```
 
-The script allows customization through the following environment variables:
+**Key Environment Variables**
 
-- `WEIGHT_PATH`: Path to the directory containing the FakeShield model weights.
-- `QUESTION_PATH`: Path to the test dataset in JSONL format. This file can be generated using [`./playground/eval_jsonl.py`](https://github.com/zhipeixu/FakeShield/blob/main/playground/eval_jsonl.py).
-- `DTE_FDM_OUTPUT`: Path for saving the output of the DTE-FDM model.
-- `MFLM_OUTPUT`: Path for saving the output of the MFLM model.
+- `WEIGHT_PATH`: Directory containing the trained or fine-tuned model weights
+- `QUESTION_PATH`: Path to the test dataset in JSON format
+- `DTE_FDM_OUTPUT`: Directory to save the output results from the DTE-FDM module
+- `MFLM_OUTPUT`: Directory to save the output results from the MFLM module
 
 Modify these variables as needed to adapt the evaluation process to different datasets and setups.
 
-## 🙏 Acknowledgement
+## 💡 Notes
 
-We are thankful to LLaVA, groundingLMM, and LISA for releasing their models and code as open-source contributions.
+- Ensure that all datasets and JSON files are correctly placed under the `./dataset/` directory following the required structure.  
+- Pretrained model weights should be stored under `./weight/`.  
+- Fine-tuned checkpoints and testing results will be automatically saved in the output directories defined by `OUTPUT_DIR`, `DTE_FDM_OUTPUT`, or `MFLM_OUTPUT`.  
+- Both **DTE-FDM** and **MFLM** modules can be trained, fine-tuned, or tested independently.  
+- Modify environment variables in the scripts as needed to adapt paths, datasets, or hyperparameters.  
+- All provided scripts (`train.sh`, `finetune_lora.sh`, `test.sh`) are modular — you can run each component separately or combine them for end-to-end evaluation.  
+- The Google Drive link provided in this repository contains the processed dataset and JSON files required for training, validation, and testing.  
+
