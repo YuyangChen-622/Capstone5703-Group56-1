@@ -7,11 +7,11 @@
 
 ## 👥 Team Members
 Yuyang Chen  
-[Add Member 2 Name]  
-[Add Member 3 Name]  
-[Add Member 4 Name]  
-[Add Member 5 Name]  
-[Add Member 6 Name]  
+Harry Cao 
+Jiaze Li
+Yuxuan Ke
+Zhihcheng Gao 
+Haodi Qi
 
 ---
 
