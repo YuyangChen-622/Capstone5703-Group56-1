@@ -1,64 +1,39 @@
 <div align="center">
-<img src="./assets/Logo.png" alt="Image Alt Text" width="150" height="150">
-<h3> FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models </h3>
-<!-- <h4> CVPR 2024 </h4> -->
-  
-[Zhipei Xu](https://villa.jianzhang.tech/people/zhipei-xu-%E5%BE%90%E5%BF%97%E6%B2%9B/), [Xuanyu Zhang](https://xuanyuzhang21.github.io/), [Runyi Li](https://villa.jianzhang.tech/people/runyi-li-%E6%9D%8E%E6%B6%A6%E4%B8%80/), [Zecheng Tang](https://villa.jianzhang.tech/people/zecheng-tang-%E6%B1%A4%E6%B3%BD%E5%9F%8E/), [Qing Huang](https://github.com/zhipeixu/FakeShield), [Jian Zhang](https://jianzhang.tech/)
-
-School of Electronic and Computer Engineering, Peking University
-
-
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2410.02761-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.02761) 
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/zhipeixu/FakeShield/blob/main/LICENSE) 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=zhipeixu.FakeShield)
-[![hf_space](https://img.shields.io/badge/🤗-Huggingface%20Checkpoint-blue.svg)](https://huggingface.co/zhipeixu/fakeshield-v1-22b)
-[![hf_space](https://img.shields.io/badge/🤗-MMTD%20Set%2034k-blue.svg)](https://huggingface.co/datasets/zhipeixu/MMTD-Set-34k)
-[![Home Page](https://img.shields.io/badge/Project_Page-FakeShield-blue.svg)](https://zhipeixu.github.io/projects/FakeShield/)
-  <br>
-[![wechat](https://img.shields.io/badge/-WeChat@新智元-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/_ih1EycGsUTYRK15X2OrRA)
-[![wechat](https://img.shields.io/badge/-WeChat@52CV-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/a7WpY7TuB7V3M7r3FMxRfA)
-[![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/3053214498)
-[![csdn](https://img.shields.io/badge/-CSDN-000000?logo=CSDN&logoColor=DC143C)](https://blog.csdn.net/amusi1994/article/details/142892876)
-
-
+<img src="./assets/Logo.png" alt="Project Logo" width="150" height="150">
+<h3> Explainable Fake Image Detection Using Large Multimodal Models </h3>
+<h4> Capstone Project — CS56-1 | The University of Sydney, Semester 2, 2025 </h4>
 </div>
 
+---
+
+## 👥 Team Members
+| Name | Role |
+|------|------|
+| Yuyang Chen | Project Manager / Technical Lead |
+| [Add Member 2] | [Role] |
+| [Add Member 3] | [Role] |
+| [Add Member 4] | [Role] |
+| [Add Member 5] | [Role] |
+| [Add Member 6] | [Role] |
+
+**Client:** Ali Anaissi  
+**Supervisor:** School of Computer Science, The University of Sydney 
+
+---
+
+## 🧭 Project Overview
+
+This project — *Explainable Fake Image Detection Using Large Multimodal Models* — aims to build an interpretable and reliable system for detecting and localizing fake or manipulated images.  
+It leverages the capabilities of **large multimodal models (LMMs)** to perform detection, localization, and explanation generation, making the decision process more transparent and understandable to humans.
+
+Our implementation is built upon the open-source **FakeShield** framework and extended for educational and research purposes as part of the Capstone program.  
+The system integrates multiple components for **forgery detection, multimodal reasoning, and visual explanation** generation.
 
 ---
 
 
-<details open><summary>💡 We also have other Copyright Protection projects that may interest you ✨. </summary><p>
-<!--  may -->
-
-> [**AvatarShield: Visual Reinforcement Learning for Human-Centric Video Forgery Detection**](https://arxiv.org/abs/2505.15173) <br>
-> Zhipei Xu, Xuanyu Zhang, Xing Zhou, Jian Zhang <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/zhipeixu/AvatarShield)  [![github](https://img.shields.io/github/stars/zhipeixu/AvatarShield.svg?style=social)](https://github.com/zhipeixu/AvatarShield) [![arXiv](https://img.shields.io/badge/Arxiv-2505.15173-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.15173) <br>
-
-> [**EditGuard: Versatile Image Watermarking for Tamper Localization and Copyright Protection [CVPR 2024]**](https://arxiv.org/abs/2312.08883) <br>
-> Xuanyu Zhang, Runyi Li, Jiwen Yu, Youmin Xu, Weiqi Li, Jian Zhang <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/xuanyuzhang21/EditGuard)  [![github](https://img.shields.io/github/stars/xuanyuzhang21/EditGuard.svg?style=social)](https://github.com/xuanyuzhang21/EditGuard) [![arXiv](https://img.shields.io/badge/Arxiv-2312.08883-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2312.08883) <br>
-
-> [**OmniGuard: Hybrid Manipulation Localization via Augmented Versatile Deep Image Watermarking [CVPR 2025]**](https://arxiv.org/abs/2412.01615) <br>
-> Xuanyu Zhang, Zecheng Tang, Zhipei Xu, Runyi Li, Youmin Xu, Bin Chen, Feng Gao, Jian Zhang <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/xuanyuzhang21/EditGuard)  [![github](https://img.shields.io/github/stars/xuanyuzhang21/OmniGuard.svg?style=social)](https://github.com/xuanyuzhang21/OmniGuard) [![arXiv](https://img.shields.io/badge/Arxiv-2412.01615-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.01615) <br>
-
-</p></details>
 
 
-## 📰 News
-* **[2025.05.29]** 🔥🔥🔥  We have open-sourced the **SD_Inpaint** dataset on Hugging Face, and you can access it from [here](https://huggingface.co/datasets/zhipeixu/SD_inpaint_dataset).
-* **[2025.04.23]** 🤗  We have open-sourced the **MMTD-Set-34k** dataset on Hugging Face, and you can access it from [here](https://huggingface.co/datasets/zhipeixu/MMTD-Set-34k).
-* **[2025.02.14]** 🤗  We ~~are progressively open-sourcing~~ have open-sourced **all code & pre-trained model weights**. Welcome to **watch** 👀 this repository for the latest updates.
-* **[2025.01.23]** 🎉🎉🎉 Our FakeShield has been accepted at ICLR 2025! 
-* **[2024.10.03]**  🔥 We have released **FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models**. We present explainable IFDL tasks, constructing the MMTD-Set dataset and the FakeShield framework. Check out the [paper](https://arxiv.org/abs/2410.02761). The code and dataset are coming soon
-
-
-## <img id="painting_icon" width="3%" src="https://cdn-icons-png.flaticon.com/128/1022/1022330.png"> FakeShield Overview
-
-FakeShield is a novel multi-modal framework designed for explainable image forgery detection and localization (IFDL). Unlike traditional black-box IFDL methods, FakeShield integrates multi-modal large language models (MLLMs) to analyze manipulated images, generate tampered region masks, and provide human-understandable explanations based on pixel-level artifacts and semantic inconsistencies. To improve generalization across diverse forgery types, FakeShield introduces domain tags, which guide the model to recognize different manipulation techniques effectively. Additionally, we construct MMTD-Set, a richly annotated dataset containing multi-modal descriptions of manipulated images, fostering better interpretability. Through extensive experiments, FakeShield demonstrates superior performance in detecting and localizing various forgeries, including copy-move, splicing, removal, DeepFake, and AI-generated manipulations.
-
-![alt text](assets/teasor.png)
 
 
 ## 🏆 Contributions
