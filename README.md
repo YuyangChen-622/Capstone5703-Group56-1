@@ -85,7 +85,7 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 2. Clone the repository:
     ```bash
-    git clone https://github.com/zhipeixu/FakeShield.git
+    git clone https://github.com/YuyangChen-622/Capstone5703-Group56-1
     cd FakeShield
     ```
 
