@@ -42,8 +42,6 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 ## 🛠️ Requirements and Installation
 
-> **Note**: If you want to reproduce the results from our paper, please prioritize using the Docker image to set up the environment. For more details, see this [issue](https://github.com/zhipeixu/FakeShield/issues/20).
-
 ### Installation via Pip
 
 1. Ensure your environment meets the following requirements:
