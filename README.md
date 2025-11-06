@@ -13,9 +13,6 @@ Yuyang Chen
 [Add Member 5 Name]  
 [Add Member 6 Name]  
 
-**Client:** Ali Anaissi  
-**Supervisor:** School of Computer Science, The University of Sydney 
-
 ---
 
 ## 🧭 Project Overview
@@ -28,10 +25,18 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 ---
 
+## 🏗️ System Components
 
+- **Domain Tag-guided Explainable Forgery Detection Module (DTE-FDM):**  
+  Detects whether an image is authentic or manipulated while generating preliminary textual reasoning.
 
+- **Multimodal Forgery Localization Module (MFLM):**  
+  Identifies and highlights tampered regions at the pixel level.
 
+- **Explanation Generator:**  
+  Produces clear, human-readable explanations aligning visual and textual evidence.
 
+---
 
 
 
@@ -158,24 +163,9 @@ Modify these variables to suit different use cases.
 
 ## 🏋️‍♂️ Train
 
-### Training Data Preparation
-
-The training dataset consists of three types of data:
-
-1. **PhotoShop Manipulation Dataset:** [CASIAv2](https://www.kaggle.com/datasets/divg07/casia-20-image-tampering-detection-dataset), [Fantastic Reality](http://zefirus.org/MAG)
-2. **DeepFake Manipulation Dataset:** [FFHQ](https://cvlab.cse.msu.edu/dffd-dataset.html), [FaceAPP](https://cvlab.cse.msu.edu/dffd-dataset.html)
-3. **AIGC-Editing Manipulation Dataset:** [SD_inpaint Dataset](https://huggingface.co/datasets/zhipeixu/SD_inpaint_dataset)
-4. **MMTD-Set Dataset:** [MMTD-Set](https://huggingface.co/datasets/zhipeixu/MMTD-Set-34k)
+### Data Preparation
 
 
-### Validation Data Preparation
-
-The validation dataset consists of three types of data:
-
-1. **PhotoShop Manipulation Dataset:** [CASIA1+](https://github.com/proteus1991/PSCC-Net?tab=readme-ov-file#testing), [IMD2020](http://zefirus.org/MAG), [Columbia](https://www.ee.columbia.edu/ln/dvmm/downloads/authsplcuncmp/), [coverage](https://github.com/wenbihan/coverage), [NIST16](https://mfc.nist.gov/), [DSO](https://recodbr.wordpress.com/code-n-data/#dso1_dsi1), [Korus](https://pkorus.pl/downloads/dataset-realistic-tampering)
-2. **DeepFake Manipulation Dataset:** [FFHQ](https://cvlab.cse.msu.edu/dffd-dataset.html), [FaceAPP](https://cvlab.cse.msu.edu/dffd-dataset.html)
-3. **AIGC-Editing Manipulation Dataset:** [SD_inpaint Dataset](https://huggingface.co/datasets/zhipeixu/SD_inpaint_dataset)
-4. **MMTD-Set Dataset:** [MMTD-Set](https://huggingface.co/datasets/zhipeixu/MMTD-Set-34k)
 
 Download them from the above links and organize them as follows:
 
@@ -299,20 +289,6 @@ The script allows customization through the following environment variables:
 - `MFLM_OUTPUT`: Path for saving the output of the MFLM model.
 
 Modify these variables as needed to adapt the evaluation process to different datasets and setups.
-
-
-
-
-## 📜 Citation
-
-```bibtex
-    @inproceedings{xu2024fakeshield,
-            title={FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models},
-            author={Xu, Zhipei and Zhang, Xuanyu and Li, Runyi and Tang, Zecheng and Huang, Qing and Zhang, Jian},
-            booktitle={International Conference on Learning Representations},
-            year={2025}
-    }
-```
 
 ## 🙏 Acknowledgement
 
