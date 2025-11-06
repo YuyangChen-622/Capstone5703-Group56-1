@@ -75,41 +75,6 @@ The system integrates multiple components for **forgery detection, multimodal re
     pip install flash-attn --no-build-isolation
     ```
 
-### Installation via Docker
-
-1. Pull the pre-built Docker image:
-    ```bash
-    docker pull zhipeixu/mflm:v1.0
-    docker pull zhipeixu/dte-fdm:v1.0
-    ```
-
-2. Clone the repository:
-    ```bash
-    git clone https://github.com/YuyangChen-622/Capstone5703-Group56-1
-    cd FakeShield
-    ```
-
-3. Run the container:
-    ```bash
-    docker run --gpus all -it --rm \
-        -v $(pwd):/workspace/FakeShield \
-        zhipeixu/dte-fdm:latest /bin/bash
-    
-    docker run --gpus all -it --rm \
-        -v $(pwd):/workspace/FakeShield \
-        zhipeixu/mflm:latest /bin/bash
-    ```
-
-4. Inside the container, navigate to the repository:
-    ```bash
-    cd /workspace/FakeShield
-    ```
-
-5. Install MMCV:
-    ```bash
-    git clone https://github.com/open-mmlab/mmcv
-    ```
-
 
 ## 🤖 Prepare Model
 
