@@ -42,7 +42,7 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 
 
-## 🛠️ Requirements and Installation
+## ⚙️ Requirements and Installation
 
 ### 1. **Environment Setup**  
    Make sure your system meets the following requirements:
@@ -51,30 +51,30 @@ The system integrates multiple components for **forgery detection, multimodal re
    - CUDA Version == 11.6
 
 ### 2. **Clone the Repository**
-   ```bash
-   git clone https://github.com/YuyangChen-622/Capstone5703-Group56-1
-   cd FakeShield
-   ```
+```bash
+git clone https://github.com/zhipeixu/FakeShield.git
+cd FakeShield
+```
    
 ### 3. **Install dependencies**
-    ```bash
-    apt update && apt install git
-    pip install -r requirements.txt
+```bash
+apt update && apt install git
+pip install -r requirements.txt
 
-    ## Install MMCV
-    git clone https://github.com/open-mmlab/mmcv
-    cd mmcv
-    git checkout v1.4.7
-    MMCV_WITH_OPS=1 pip install -e .
-    ```
+## Install MMCV
+git clone https://github.com/open-mmlab/mmcv
+cd mmcv
+git checkout v1.4.7
+MMCV_WITH_OPS=1 pip install -e .
+```
 
 ### 4. **Install DTE-FDM Module**
-    ```bash
-    cd ../DTE-FDM
-    pip install -e .
-    pip install -e ".[train]"
-    pip install flash-attn --no-build-isolation
-    ```
+```bash
+cd ../DTE-FDM
+pip install -e .
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
 
 ## 🤖 Prepare Model
 
