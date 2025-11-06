@@ -6,14 +6,12 @@
 ---
 
 ## 👥 Team Members
-| Name | Role |
-|------|------|
-| Yuyang Chen | Project Manager / Technical Lead |
-| [Add Member 2] | [Role] |
-| [Add Member 3] | [Role] |
-| [Add Member 4] | [Role] |
-| [Add Member 5] | [Role] |
-| [Add Member 6] | [Role] |
+Yuyang Chen  
+[Add Member 2 Name]  
+[Add Member 3 Name]  
+[Add Member 4 Name]  
+[Add Member 5 Name]  
+[Add Member 6 Name]  
 
 **Client:** Ali Anaissi  
 **Supervisor:** School of Computer Science, The University of Sydney 
@@ -35,13 +33,6 @@ The system integrates multiple components for **forgery detection, multimodal re
 
 
 
-## 🏆 Contributions
-
-- **FakeShield Introduction.** We introduce FakeShield, a multi-modal framework for explainable image forgery detection and localization, which is **the first** to leverage MLLMs for the IFDL task. We also propose Domain Tag-guided Explainable Forgery Detection Module(DTE-FDM) and Multimodal Forgery Localization Module (MFLM) to improve the generalization and robustness of the models
-
-- **Novel Explainable-IFDL Task.** We propose **the first** explainable image forgery detection and localization (e-IFDL) task, addressing the opacity of traditional IFDL methods by providing both pixel-level and semantic-level explanations.  
-
-- **MMTD-Set Dataset Construction.** We create the MMTD-Set by enriching existing IFDL datasets using GPT-4o, generating high-quality “image-mask-description” triplets for enhanced multimodal learning.  
 
 
 ## 🛠️ Requirements and Installation
