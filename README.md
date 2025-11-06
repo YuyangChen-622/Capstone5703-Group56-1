@@ -1,5 +1,4 @@
 <div align="center">
-<img src="./assets/Logo.png" alt="Project Logo" width="150" height="150">
 <h3> Explainable Fake Image Detection Using Large Multimodal Models </h3>
 <h4> Capstone Project — CS56-1 | The University of Sydney, Semester 2, 2025 </h4>
 </div>
