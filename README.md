@@ -11,31 +11,15 @@ Haodi Qi
 </p>
 </div>
 
+---
 
 ## 🧭 Project Overview
 
-This project — *Explainable Fake Image Detection Using Large Multimodal Models* — aims to build an interpretable and reliable system for detecting and localizing fake or manipulated images.  
-
-It leverages the capabilities of **large multimodal models (LMMs)** to perform detection, localization, and explanation generation, making the decision process more transparent and understandable to humans.
-
-Our implementation is built upon the open-source **FakeShield** framework and extended for educational and research purposes as part of the Capstone program.  
-
-The system integrates multiple components for **forgery detection, multimodal reasoning, and visual explanation** generation.
+This project, *Explainable Fake Image Detection Using Large Multimodal Models*, aims to build an interpretable and reliable system for detecting and localizing fake or manipulated images. It leverages the capabilities of large multimodal models (LMMs) to perform detection, localization, and explanation generation, making the decision process more transparent and understandable to humans. Our implementation is built upon the open-source FakeShield framework and extended for educational and research purposes as part of the Capstone program. The system integrates multiple components for forgery detection, multimodal reasoning, and visual explanation generation.
 
 ---
 
-## 🏗️ System Components
 
-- **Domain Tag-guided Explainable Forgery Detection Module (DTE-FDM):**  
-  Detects whether an image is authentic or manipulated while generating preliminary textual reasoning.
-
-- **Multimodal Forgery Localization Module (MFLM):**  
-  Identifies and highlights tampered regions at the pixel level.
-
-- **Explanation Generator:**  
-  Produces clear, human-readable explanations aligning visual and textual evidence.
-
----
 
 
 
